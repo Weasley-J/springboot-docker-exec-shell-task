@@ -1,0 +1,17 @@
+server:
+  port: 10001
+
+spring:
+  application:
+    name: springboot-exec-shell-task
+
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+  ssh:
+    server:
+      host: 192.168.31.105
+      port: 22
+      username: root
+      password: 123456
